@@ -1,0 +1,177 @@
+/* header */
+main {width:calc(100% - 120px); margin:0 auto; letter-spacing: -0.04rem;}
+header {
+    /* background-color: aquamarine; */
+}
+header .top {
+    padding:10px;
+    background-color: #222;
+    display: flex;
+    height: 42px;
+    width:100%;
+    position: relative;
+}
+header .top p {
+    color:#fff;
+    font-weight: 500;
+    /* font-size: 0.75rem; */
+    position:absolute; right:43%;
+}
+header .top .right {position:absolute; right:0; padding-right: 60px;}
+header .top .right a {
+    color:#fff;
+    font-weight: 500;
+    border-right:1px solid #fff;
+    line-height: 5px;
+    padding:0px 10px;
+    font-size: 0.75rem;
+    
+}
+header .top .right a:last-child {border-right:0;}
+header .btm {
+    width:calc(100% - 120px);
+    margin: 0 auto;
+    padding:15px ;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header .btm h1 {}
+header .btm h1 a {}
+header .btm h1 a img {width:150px; height: 70px;}
+header .btm nav {
+    align-items: center;
+}
+header .btm nav ul {
+    display: flex; flex-flow: row nowrap;
+    padding-top:28px;
+}
+header .btm nav ul li:last-child {margin-right: 0;}
+header .btm nav ul li {
+    margin-right: 20px;
+}
+header .btm nav ul li a {
+    letter-spacing: -0.04em;
+    font-weight: 500;
+}
+/* 서브메뉴 */
+header .btm nav ul li .snb {}
+header .btm nav ul li .snb li {}
+header .btm nav ul li .snb li a {}
+/* ----------------------------------------- */
+header .btm .right {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+header .btm .right #searchFrm {
+    background-color:#222;
+    padding:11px 0; border-radius: 30px;
+    width:200px;
+}
+header .btm .right #searchFrm fieldset {
+    display: flex;
+}
+header .btm .right #searchFrm fieldset #searchBtn {background: none; padding-left:10px;}
+header .btm .right #searchFrm fieldset #searchBtn img  {}
+header .btm .right #searchFrm fieldset #searchTxt::placeholder {color:#fff;}
+header .btm .right #searchFrm fieldset #searchTxt {
+    background:none ; color:#fff; padding-left:10px;
+}
+header .btm .right .icon {}
+header .btm .right .icon a:first-child {margin:0 20px;}
+header .btm .right .icon a {}
+header .btm .right .icon a img {}
+/* main */
+main > * {margin-bottom: 100px;}
+main {}
+main .event {
+    /* background-color: pink; */
+}
+main .event .img {text-align: center;}
+main .event .img img {
+    width: 100%;
+}
+main .event .txt > * {margin-bottom:25px; line-height: 25px;}
+main .event .txt {
+    text-align: center;
+}
+main .event .txt h2 {font-size: 2.36rem; font-weight: 800;}
+main .event .txt p {}
+main .event .txt a:hover {background: #D51920;}
+main .event .txt a {
+    background-color: #222;
+    color:#fff;
+    padding:5px 15px;
+    border-radius:50px;
+    transition: background 0.2s linear;
+}
+main .wrap {}
+main .wrap video {
+    width:100%;
+}
+main .wrap .txt > * {margin-bottom:25px; line-height:25px;}
+main .wrap .txt {text-align: center;}
+main .wrap .txt h2 {font-size: 2.36rem; font-weight: 800; margin-top: 20px;}
+main .wrap .txt p {}
+main .wrap .txt a:hover {background: #D51920;}
+main .wrap .txt a {
+    background-color: #222;
+    color:#fff;
+    padding:5px 15px;
+    border-radius:50px;
+    transition: background 0.2s linear;
+}
+main .product {}
+main .product h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
+main .product #vans_slide {
+    /* background-color: crimson; */
+    
+}
+main .product #vans_slide .swiper-wrapper {}
+main .product #vans_slide .swiper-wrapper .slide1 {}
+main .product #vans_slide .swiper-wrapper .slide2 {}
+main .product #vans_slide .swiper-wrapper .slide3 {}
+main .product #vans_slide .swiper-wrapper .swiper-slide {}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents {}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents a {}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt a {}
+main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {line-height: 30px;}
+/* footer */
+
+footer > * { color:#fff;}
+footer {
+    background-color: #222;
+    padding:30px 60px;
+}
+footer .top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 135px;
+}
+footer .top .top-left {}
+footer .top .top-left ul {
+    display: flex; flex-flow: row nowrap;
+}
+footer .top .top-left ul > li {
+    display: flex; flex-flow: column wrap;
+    margin-right: 100px;
+}
+footer .top .top-left ul > li > a:hover {color:#D51920;}
+footer .top .top-left ul > li > a {line-height: 30px; color:#fff; margin-bottom: 10px;}
+footer .top .top-left ul li > .snb {display:flex ; flex-flow: column nowrap;}
+footer .top .top-left ul li > .snb > li {margin-right:0px;}
+footer .top .top-left ul li > .snb > li > a {}
+footer .top .top-right {}
+footer .top .top-right a {color:#fff;}
+
+footer .middle-top {display: flex; flex-flow: row nowrap; justify-content: space-between;
+    padding-bottom: 30px; border-bottom: 1px solid #fff;
+}
+footer .middle-top p {}
+footer .middle-top p img {margin-right: 5px;}
+footer .middle-top .top-right {}
+footer .middle-top .top-right p {display: inline; padding-left:35px;}
+footer .btm {padding-top:30px;}
+footer .btm p {line-height: 30px;}
+footer .btm p a:hover {color:#D51920;}
+footer .btm p a {color:#fff;}
