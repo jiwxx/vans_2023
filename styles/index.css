@@ -104,7 +104,7 @@ main .event .txt a {
     transition: background 0.2s linear;
 }
 main .wrap {}
-main .wrap video {
+main .wrap #video {
     width:100%;
 }
 main .wrap .txt > * {margin-bottom:25px; line-height:25px;}
@@ -119,6 +119,17 @@ main .wrap .txt a {
     border-radius:50px;
     transition: background 0.2s linear;
 }
+/* wrap2 */
+main .wrap2 {
+    background-color: darksalmon;
+}
+main .wrap2 .img {}
+main .wrap2 .img img {}
+main .wrap2 .txt {}
+main .wrap2 .txt h2 {}
+main .wrap2 .txt p {}
+main .wrap2 .txt .wrap2_btn {}
+
 main .product {}
 main .product h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
 main .product #vans_slide {
@@ -136,6 +147,20 @@ main .product #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
 main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
 main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt a {}
 main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {line-height: 30px;}
+/* collbo */
+main .collabo {
+    background-color: cornflowerblue;
+    display:flex; flex-flow: column nowrap;
+}
+main .collabo h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
+main .collabo .box {
+    display:flex; flex-flow: column nowrap;
+}
+main .collabo .box a {}
+main .collabo .box a img {}
+main .collabo .box h3 {}
+main .collabo .box p {}
+main .collabo .box a {}
 /* footer */
 
 footer > * { color:#fff;}
