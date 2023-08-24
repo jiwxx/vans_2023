@@ -16,8 +16,9 @@ main .m_bnr .bnr_contents .box:first-child{margin-left: 0px;}
 main .m_bnr .bnr_contents .box {margin-left: 20px;}
 main .m_bnr .bnr_contents .box .bg {padding-top:225px;}
 main .m_bnr .bnr_contents .box .bg1 {
-    background-color: rosybrown;
-    background: url(../images/list_bnr_01.png) no-repeat;
+    /* background-color: rosybrown; */
+    background-image: url(../images/list_bnr_01.png);
+    background-size: cover;
     width:427px; height: 589px;
 }
 main .m_bnr .bnr_contents .box .bg > * {color:#fff; text-align: center; line-height: 40px;}
@@ -70,15 +71,72 @@ main .shoes .s_top a img {width:25px; height: 25px;}
 main .shoes .list {
     margin-top: 35px;
 }
-main .shoes .list .p_top {}
+main .shoes .list .p_top {
+    display:flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
 main .shoes .list .p_top a {}
-main .shoes .list .p_top a p {}
-main .shoes .list .p_top a p img {}
-main .shoes .list .p_top a h2 {}
-main .shoes .list .p_top a p:last-child {}
-main .sub_bnr {}
-main .sub_bnr .sub_bg {}
-main .sub_bnr .sub_bg p {}
-main .items {}
-main .items .shItem {}
-main .items .shItem a {}
+main .shoes .list .p_top a p {margin-bottom: 25px;}
+main .shoes .list .p_top a p img {width:100%;}
+main .shoes .list .p_top a h2 {line-height: 30px;}
+main .shoes .list .p_top a p:last-child {line-height: 30px;}
+main .shoes .list .p_btm {
+    display:flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .shoes .list .p_btm a {}
+main .shoes .list .p_btm a p {margin-bottom: 25px;}
+main .shoes .list .p_btm a p img {width:100%;}
+main .shoes .list .p_btm a h2 {line-height: 30px;}
+main .shoes .list .p_btm a p:first-child {}
+main .shoes .list .p_btm a p:last-child {line-height: 30px;}
+
+main .sub_bnr {width:100%;}
+main .sub_bnr .sub_bg {
+    background-image: url(../images/sub_bg.png);
+    background-size: cover;
+    height:391px;
+    width:100%;
+}
+main .sub_bnr .sub_bg p {
+    font-size: 6.25rem; font-weight: 800; color:#fff; text-align: center;
+    padding-top:50px; line-height: 145px;
+}
+main .items {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top:25px;
+    margin-bottom: 100px;
+}
+main .items .shItem:nth-of-type(1){
+    background-image: url(../images/sub_menu01.png);
+    width:250px; height:180px;
+}
+main .items .shItem:nth-of-type(2){
+    background-image: url(../images/sub_menu02.png);
+    width:250px; height:180px;
+}
+main .items .shItem:nth-of-type(3){
+    background-image: url(../images/sub_menu03.png);
+    width:250px; height:180px;
+}
+main .items .shItem:nth-of-type(4){
+    background-image: url(../images/sub_menu04.png);
+    width:250px; height:180px;
+}
+main .items .shItem:nth-of-type(5){
+    background-image: url(../images/sub_menu05.png);
+    width:250px; height:180px;
+}
+main .items .shItem {
+    position: relative;
+}
+main .items .shItem a {
+    position:absolute; left:95px; top:80px;
+    font-size: 1.3rem; color:#fff; 
+}
+main .items .shItem::after {content:'';
+    background-color: rgba(0,0,0,0.3);
+    display: block; width:250px; height:180px;
+    z-index:90;
+}
