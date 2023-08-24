@@ -1,0 +1,84 @@
+main {
+    width:calc(100% - 120px); margin:0 auto;
+    padding-top:50px;
+}
+main .m_bnr {
+    /* background-color: yellowgreen; */
+    display: flex; flex-flow: column nowrap; align-items: center;
+}
+main .m_bnr h2 {
+    text-align: center;
+    font-size: 3.1rem; font-weight:500;
+    margin-bottom: 50px;
+}
+main .m_bnr .bnr_contents {display: flex; flex-flow: row nowrap;}
+main .m_bnr .bnr_contents .box:first-child{margin-left: 0px;}
+main .m_bnr .bnr_contents .box {margin-left: 20px;}
+main .m_bnr .bnr_contents .box .bg {padding-top:225px;}
+main .m_bnr .bnr_contents .box .bg1 {
+    background-color: rosybrown;
+    background: url(../images/list_bnr_01.png) no-repeat;
+    width:427px; height: 589px;
+}
+main .m_bnr .bnr_contents .box .bg > * {color:#fff; text-align: center; line-height: 40px;}
+main .m_bnr .bnr_contents .box .bg span {font-size: 1.3rem;}
+main .m_bnr .bnr_contents .box .bg em {font-size: 1.7rem; font-weight:600;}
+main .m_bnr .bnr_contents .box .bg1 span {}
+main .m_bnr .bnr_contents .box .bg1 span {}
+main .m_bnr .bnr_contents .box .bg1 em {}
+main .m_bnr .bnr_contents .box .bg2 {
+    background: url(../images/list_bnr_02.png) no-repeat;
+    width:427px; height: 589px;
+}
+main .m_bnr .bnr_contents .box .bg2 span {}
+main .m_bnr .bnr_contents .box .bg2 em {}
+main .m_bnr .bnr_contents .box .bg3 {
+    background: url(../images/list_bnr_03.png) no-repeat;
+    width:427px; height: 589px;}
+main .m_bnr .bnr_contents .box .bg3 span {}
+main .m_bnr .bnr_contents .box .bg3 em {}
+/* shoes menu */
+main .menu {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top:50px;
+}
+main .menu .menu_box:hover {background-color: #D51920; color:#fff; border:0;}
+main .menu .menu_box {
+    display: block;
+    border:1px solid #000; width:250px; height: 130px;
+    padding-top:20px;
+    transition: all 0.3s linear;
+}
+main .menu .menu_box P {}
+main .menu .menu_box > * {text-align:center; line-height:40px;}
+main .menu .menu_box P:first-child {font-size: 1.3rem;}
+main .menu .menu_box P:last-child {font-size: 1.7rem;}
+main .shoes {
+    margin-top:100px;
+}
+main .shoes .s_top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    border-bottom:1px solid #000;
+}
+main .shoes .s_top h2 {font-size:3.1rem; font-weight: 500;}
+main .shoes .s_top a {} 
+main .shoes .s_top a img {width:25px; height: 25px;}
+main .shoes .list {
+    margin-top: 35px;
+}
+main .shoes .list .p_top {}
+main .shoes .list .p_top a {}
+main .shoes .list .p_top a p {}
+main .shoes .list .p_top a p img {}
+main .shoes .list .p_top a h2 {}
+main .shoes .list .p_top a p:last-child {}
+main .sub_bnr {}
+main .sub_bnr .sub_bg {}
+main .sub_bnr .sub_bg p {}
+main .items {}
+main .items .shItem {}
+main .items .shItem a {}

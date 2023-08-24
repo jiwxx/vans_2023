@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <title>Vans</title>
     <!-- slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
@@ -10,6 +12,7 @@
     <!-- 파비콘 -->
     <!-- css -->
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
@@ -88,83 +91,170 @@
             <div class="txt">
                 <h2>ABOUT VANS</h2>
                 <p>자신만의 길을 가는 모든 이들을 위한<br>반스와 함께 나만의 개성을 표현해 보세요.</p>
-                <a href="#" class="wrap_btn">구매하기</a>
+                <a href="#" class="wrap_btn">자세히보기</a>
             </div>
         </div>
         <div class="wrap2">
-            <p class="img"><img src="" alt=""></p>
-            <div class="txt">
-                <h2>VINTAGE RETRO</h2>
-                <p>90년대 그런지 룩에서 영감받은 컬렉션<br>빈티지 레트로 팩</p>
-                <a href="#" class="wrap2_btn">구매하기</a>
+            <div class="bnr_bg">
+                    <div class="txt">
+                        <h2>VINTAGE RETRO</h2>
+                        <p>90년대 그런지 룩에서 영감받은 컬렉션<br>빈티지 레트로 팩</p>
+                        <a href="#" class="wrap2_btn">구매하기</a>
+                    </div>
             </div>
         </div>
         <div class="product">
             <h2>TRENDING NOW</h2>
             <!-- 1. swiper-slide -->
             <!-- .swiper슬라이드의 전체 틀 -->
-            <div class="swiper" id="vans_slide">
-                <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
-                <div class="swiper-wrapper">
-                    <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
-                    <div class="swiper-slide slide1">
-                        <div class="contents">
-                            <a href="#"><img src="./images/vans04.jpg" alt=""></a>
-                            <div class="slide_txt">
-                                <p>코어클래식 AUTHENTIC 어센틱</p>
-                                <p>69,000원</p>
+            <div class="trending">
+                <div class="swiper" id="vans_slide">
+                    <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
+                    <div class="swiper-wrapper">
+                        <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
+                        <div class="swiper-slide slide1">
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans04.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 AUTHENTIC 어센틱</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans06.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 Slip-On 체커보드 슬립온</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vn_h1.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 SK8-Hi 스케이트-하이</p>
+                                    <p>99,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans04.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 AUTHENTIC 어센틱</p>
+                                    <p>69,000원</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide slide2">
-                        <div class="contents">
-                            <a href="#"><img src="./images/vans06.jpg" alt=""></a>
-                            <div class="slide_txt">
-                                <p>코어클래식 Slip-On 체커보드 슬립온</p>
-                                <p>69,000원</p>
+                        <div class="swiper-slide slide2">
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans06.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 Slip-On 체커보드 슬립온</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans06.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 Slip-On 체커보드 슬립온</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vn_h1.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 SK8-Hi 스케이트-하이</p>
+                                    <p>99,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans04.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 AUTHENTIC 어센틱</p>
+                                    <p>69,000원</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide slide3">
-                        <div class="contents">
-                            <a href="#"><img src="./images/vn_h1.jpg" alt=""></a>
-                            <div class="slide_txt">
-                                <p>코어클래식 SK8-Hi 스케이트-하이</p>
-                                <p>69,000원</p>
+                        <div class="swiper-slide slide3">
+                            <div class="contents">
+                                <a href="#"><img src="./images/vn_h1.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 SK8-Hi 스케이트-하이</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans06.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 Slip-On 체커보드 슬립온</p>
+                                    <p>69,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vn_h1.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 SK8-Hi 스케이트-하이</p>
+                                    <p>99,000원</p>
+                                </div>
+                            </div>
+                            <div class="contents">
+                                <a href="#"><img src="./images/vans04.jpg" alt=""></a>
+                                <div class="slide_txt">
+                                    <p>코어클래식 AUTHENTIC 어센틱</p>
+                                    <p>69,000원</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
         <div class="collabo">
-            <h2>COLLECTION</h2>
-            <div class="box">
-                <a href="#"><img src="./images/collabo_01.jpg" alt=""></a>
-                <h3>THIS IS OFF THE WALL</h3>
-                <p>창조적인 자기표현을 지지하는<br>글로벌 캠페인</p>
-                <a href="#">자세히보기</a>
-            </div>
-            <div class="box">
-                <a href="#"><img src="./images/collabo_02.jpg" alt=""></a>
-                <h3>Vans BMX Presents: Vans<br>x The Bloom</h3>
-                <p>여성 BMX 라이더와 커뮤니티를<br>다룬 BMX 필름</p>
-                <a href="#">자세히보기</a>
-            </div>
-            <div class="box">
-                <a href="#"><img src="./images/collabo_03.jpg" alt=""></a>
-                <h3>HOV CDMX Presents:<br>
-                    "Mi Casa es tu Casa"<br>
-                    - Episode 1</h3>
-                <p>하우스 오브 반스 멕시코시티 이벤트의<br>뒷이야기를 담은 다큐멘터리</p>
-                <a href="#">자세히보기</a>
-            </div>
-            <div class="box">
-                <a href="#"><img src="./images/collabo_04.jpg" alt=""></a>
-                <h3>VANS × LOVENSKATE</h3>
-                <p>런던 동부의 대표적인 스케이트 브랜드<br>
-                    LOVENSKATE와 함께 선보이는<br>스케이트 필름</p>
-                <a href="#">자세히보기</a>
+            <h2>COLLABORATION</h2>
+            <div class="collabo_c">
+                <div class="box">
+                    <a href="#"><img src="./images/collabo_001.jpg" alt=""></a>
+                    <div class="contents">
+                        <h3>THIS IS OFF THE WALL</h3>
+                        <p>창조적인 자기표현을 지지하는<br>글로벌 캠페인</p>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><img src="./images/collabo_002.jpg" alt=""></a>
+                    <div class="contents">
+                        <h3>Vans BMX Presents: Vans<br>x The Bloom</h3>
+                        <p>여성 BMX 라이더와 커뮤니티를<br>다룬 BMX 필름</p>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><img src="./images/collabo_003.jpg" alt=""></a>
+                    <div class="contents">
+                        <h3>HOV CDMX Presents:<br>
+                            "Mi Casa es tu Casa"<br>
+                            - Episode 1</h3>
+                        <p>하우스 오브 반스 멕시코시티 이벤트의<br>뒷이야기를 담은 다큐멘터리</p>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><img src="./images/collabo_004.jpg" alt=""></a>
+                    <div class="contents">
+                        <h3>VANS × LOVENSKATE</h3>
+                        <p>런던 동부의 대표적인 스케이트 브랜드<br>
+                            LOVENSKATE와 함께 선보이는<br>스케이트 필름</p>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#"><img src="./images/collabo_005.jpg" alt=""></a>
+                    <div class="contents">
+                        <h3>VINTAGE RETRO</h3>
+                        <p>90년대 그런지 룩에서<br>
+                            영감받은 컬렉션</p>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -203,17 +293,31 @@
         </div>
         <div class="middle-top">
             <p><img src="./images/icon_location.png" alt="">서울특별시 강남구 테헤란로 317 동훈타워 18층 | 개인정보 책임자 남미리내</p>
-            <div class="top-right">
-                <p>이용약관</p>
-                <p>개인정보처리방침</p>
-                <p>청소년 보호정책</p>
+            <div class="middle-top-right">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">청소년 보호정책</a>
             </div>
         </div>
-        <div class="btm">
+        <address>
             <p>유한책임회사 브이에프코리아 | 대표 TZE CHOI THEODORE PANG | 등록번호 220-88-43561 | 통신판매업신고번호 2013-서울강남-02918호 <a href="#">사업자정보확인</a> <br>
             서울특별시 강남구 테헤란로 317 동훈타워 18층 | 개인정보 책임자 남미리내 | 고객센터(평일 09:00 ~ 18:00) 1522-1882 | 이메일<a href="#">Vanskr_online@vfc.com</a> <br>
             &copy;유한책임회사 브이에프코리아. All Rights Reserved. California Transparency in Supply Chain Act of 2010 <br></p>
-        </div>
+        </address>
     </footer>
+    <script>
+        const vans_slide = new Swiper('#vans_slide',{
+            centeredSlides:true,
+            loop:true,
+            autoplay:{delay:3000},
+            speed:800,
+            disableOnInteraction:false,
+            // direction:'horizontal',
+            navigation: {
+                nextEl:'#vans_slide ..swiper-button-next',
+                prevEl:'#vans_slide ..swiper-button-prev',
+            },
+        })
+    </script>
 </body>
 </html>

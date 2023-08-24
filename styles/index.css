@@ -14,7 +14,7 @@ header .top {
 header .top p {
     color:#fff;
     font-weight: 500;
-    /* font-size: 0.75rem; */
+    font-size: 0.75rem;
     position:absolute; right:43%;
 }
 header .top .right {position:absolute; right:0; padding-right: 60px;}
@@ -123,12 +123,28 @@ main .wrap .txt a {
 main .wrap2 {
     background-color: darksalmon;
 }
-main .wrap2 .img {}
-main .wrap2 .img img {}
-main .wrap2 .txt {}
-main .wrap2 .txt h2 {}
-main .wrap2 .txt p {}
-main .wrap2 .txt .wrap2_btn {}
+main .wrap2 .bnr_bg {
+    background:url(../images/bnr_bg.png) no-repeat;
+    background-size: cover;
+    width: 100%; height: 650px;
+    background-position: center;
+    /* position: relative; */
+}
+main .wrap2 .bnr_bg .txt > * { margin-bottom: 40px; }
+main .wrap2 .bnr_bg .txt {
+    text-align: center;
+    padding-top:226px;
+    /* position:absolute; left:30%; */
+}
+main .wrap2 .bnr_bg .txt h2 {font-size: 2.36rem; font-weight:800;}
+main .wrap2 .bnr_bg .txt p {line-height: 30px; font-size:1.3rem;}
+main .wrap2 .bnr_bg .txt .wrap2_btn:hover {background-color: #222; color:#fff;}
+main .wrap2 .bnr_bg .txt .wrap2_btn {
+    border: 1px solid #222;
+    padding:13px 50px;
+    /* border-radius:50px; */
+    transition: background 0.2s linear;
+}
 
 main .product {}
 main .product h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
@@ -136,67 +152,56 @@ main .product #vans_slide {
     /* background-color: crimson; */
     
 }
-main .product #vans_slide .swiper-wrapper {}
-main .product #vans_slide .swiper-wrapper .slide1 {}
-main .product #vans_slide .swiper-wrapper .slide2 {}
-main .product #vans_slide .swiper-wrapper .slide3 {}
-main .product #vans_slide .swiper-wrapper .swiper-slide {}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents {}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents a {}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt a {}
-main .product #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {line-height: 30px;}
+main .product .trending {
+    position: relative;
+}
+main .product .trending #vans_slide .swiper-wrapper {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide {
+    /* background-color: yellow; */
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+main .product .trending #vans_slide .swiper-wrapper .slide1 {}
+main .product .trending #vans_slide .swiper-wrapper .slide2 {}
+main .product .trending #vans_slide .swiper-wrapper .slide3 {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents:first-child {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt a {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {line-height: 30px;}
+main .product .trending .swiper-button-prev {background: url(../images/nav_left.png) no-repeat; left:-45px;}
+main .product .trending .swiper-button-next {background: url(../images/nav_right.png) no-repeat; right:-50px;}
+main .product .trending .swiper-button-prev::after,
+main .product .trending .swiper-button-next::after {display: none;}
+main .product .trending .swiper-button-prev,
+main .product .trending .swiper-button-next {width:50px; height:50px; position: absolute;}
 /* collbo */
-main .collabo {
-    background-color: cornflowerblue;
-    display:flex; flex-flow: column nowrap;
+main .collabo {}
+main .collabo h2 {
+    font-size: 2.36rem; font-weight:800; margin-bottom: 45px;
 }
-main .collabo h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
-main .collabo .box {
+main .collabo .collabo_c {display: flex; flex-flow: row nowrap; justify-content: space-between;}
+main .collabo .collabo_c .box:last-child {margin-right: 0px;}
+main .collabo .collabo_c .box {
     display:flex; flex-flow: column nowrap;
+    margin-right: 10px;
 }
-main .collabo .box a {}
-main .collabo .box a img {}
-main .collabo .box h3 {}
-main .collabo .box p {}
-main .collabo .box a {}
-/* footer */
-
-footer > * { color:#fff;}
-footer {
+main .collabo .collabo_c .box a {
+    margin-bottom: 25px;
+}
+main .collabo .collabo_c .box a img {}
+main .collabo .collabo_c .box .contents > * {margin-bottom: 25px; line-height: 30px;}
+main .collabo .collabo_c .box .contents {}
+main .collabo .collabo_c .box .contents h3 {font-size: 1.7rem; font-weight: 500;}
+main .collabo .collabo_c .box .contents p {}
+main .collabo .collabo_c .box .contents a:hover {background: #D51920;}
+main .collabo .collabo_c .box .contents a {
     background-color: #222;
-    padding:30px 60px;
+    color:#fff;
+    padding:5px 15px;
+    border-radius:50px;
+    transition: background 0.2s linear;
 }
-footer .top {
-    display: flex; flex-flow: row nowrap;
-    justify-content: space-between;
-    padding-bottom: 135px;
-}
-footer .top .top-left {}
-footer .top .top-left ul {
-    display: flex; flex-flow: row nowrap;
-}
-footer .top .top-left ul > li {
-    display: flex; flex-flow: column wrap;
-    margin-right: 100px;
-}
-footer .top .top-left ul > li > a:hover {color:#D51920;}
-footer .top .top-left ul > li > a {line-height: 30px; color:#fff; margin-bottom: 10px;}
-footer .top .top-left ul li > .snb {display:flex ; flex-flow: column nowrap;}
-footer .top .top-left ul li > .snb > li {margin-right:0px;}
-footer .top .top-left ul li > .snb > li > a {}
-footer .top .top-right {}
-footer .top .top-right a {color:#fff;}
-
-footer .middle-top {display: flex; flex-flow: row nowrap; justify-content: space-between;
-    padding-bottom: 30px; border-bottom: 1px solid #fff;
-}
-footer .middle-top p {}
-footer .middle-top p img {margin-right: 5px;}
-footer .middle-top .top-right {}
-footer .middle-top .top-right p {display: inline; padding-left:35px;}
-footer .btm {padding-top:30px;}
-footer .btm p {line-height: 30px;}
-footer .btm p a:hover {color:#D51920;}
-footer .btm p a {color:#fff;}
+/* footer */

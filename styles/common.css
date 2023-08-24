@@ -1,0 +1,53 @@
+
+footer > * { color:#fff;}
+footer {
+    background-color: #222;
+    padding:30px 60px;
+}
+footer .top {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 135px;
+}
+footer .top .top-left {}
+footer .top .top-left ul {
+    display: flex; flex-flow: row nowrap;
+}
+footer .top .top-left ul > li {
+    display: flex; flex-flow: column wrap;
+    margin-right: 100px;
+}
+footer .top .top-left ul > li > a:hover {color:#D51920;}
+footer .top .top-left ul > li > a {line-height: 30px; color:#fff; margin-bottom: 10px;}
+footer .top .top-left ul li > .snb {display:flex ; flex-flow: column nowrap;}
+footer .top .top-left ul li > .snb > li {margin-right:0px;}
+footer .top .top-left ul li > .snb > li > a {}
+footer .top .top-right {}
+footer .top .top-right a:nth-child(1) {background-image: url(../images/sns/f_sns_04.png);}
+footer .top .top-right a:nth-child(2) {background-image: url(../images/sns/f_sns_03.png);}
+footer .top .top-right a:nth-child(3) {background-image: url(../images/sns/f_sns_02.png);}
+footer .top .top-right a:nth-child(4) {background-image: url(../images/sns/f_sns_01.png);}
+footer .top .top-right a {
+    color:#fff;
+    background:no-repeat;
+    width:30px; height: 30px;
+    display: inline-block;
+    text-indent:-99999px;
+    margin-left:20px;
+}
+footer .top .top-right a:nth-child(1):hover {background-image: url(../images/sns/f_sns_h_04.png);}
+footer .top .top-right a:nth-child(2):hover {background-image: url(../images/sns/f_sns_h_03.png);}
+footer .top .top-right a:nth-child(3):hover {background-image: url(../images/sns/f_sns_h_02.png);}
+footer .top .top-right a:nth-child(4):hover {background-image: url(../images/sns/f_sns_h_01.png);}
+footer .middle-top {display: flex; flex-flow: row nowrap; justify-content: space-between;
+    padding-bottom: 30px; border-bottom: 1px solid #fff;
+}
+footer .middle-top p {}
+footer .middle-top p img {margin-right: 5px;}
+footer .middle-top .middle-top-right {}
+footer .middle-top .middle-top-right a:hover {color:#D51920;}
+footer .middle-top .middle-top-right a {display: inline; padding-left:35px; color:#fff;}
+footer address {padding-top:30px;}
+footer address p {line-height: 30px;}
+footer address p a:hover {color:#D51920;}
+footer address p a {color:#fff;}
