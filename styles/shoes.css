@@ -1,0 +1,62 @@
+main {
+    padding:100px;
+    margin:0 auto;
+    width:calc(100% - 120px);
+}
+main .product {}
+main .product #shoes_slide{}
+main .product #shoes_slide .swiper-wrapper {}
+main .product #shoes_slide .swiper-wrapper .swiper-slide {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+}
+main .product #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 45px;}
+main .product #shoes_slide .swiper-wrapper .swiper-slide p img:first-child {margin-left:0;}
+main .product #shoes_slide .swiper-wrapper .swiper-slide p img {width:100%;}
+main .product #shoes_slide .swiper-wrapper .slide1 {}
+main .product #shoes_slide .swiper-wrapper .slide2 {}
+main .product #shoes_slide .swiper-wrapper .slide3 {}
+main .product #shoes_slide .swiper-button-prev {background: url(../images/nav_left.png) no-repeat; width:50px; height:50px; left:35px;}
+main .product #shoes_slide .swiper-button-next {background: url(../images/nav_right.png) no-repeat; width:50px; height:50px; right:-15px;}
+main .product #shoes_slide .swiper-button-prev::after,
+main .product #shoes_slide .swiper-button-next::after {display: none;}
+main .product .info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 107px;
+}
+main .product .info .left  {margin-right: 60px;}
+main .product .info .left > * {margin-bottom: 50px;}
+main .product .info .left .color > * {margin-left:10px;}
+main .product .info .left .color{
+    /* background-color: pink; */
+}
+main .product .info .left .color a:nth-child(1) {background-color:#304025; margin-left:0;}
+main .product .info .left .color a:nth-child(2) {background-color:#D51920;}
+main .product .info .left .color a:nth-child(3) {background-color:#0F3086;}
+main .product .info .left .color a {
+    display: inline-block;
+    width:35px; height:35px;
+    border-radius: 50%;
+}
+main .product .info .left .title {}
+main .product .info .left .title h1 {font-size: 1.7rem; font-weight: 500;}
+main .product .info .left .title h2 {font-size: 1.3rem; font-weight: 500; margin-top: 20px;}
+main .product .info .left p {font-size: 1.3rem;}
+main .product .info .left p em {font-size: 1.7rem; font-weight: 500; margin-right:10px;}
+main .product .info .left #size {width:183px; font-size: 1.3rem; padding:5px 30px;}
+main .product .info .left #size option {font-size: 1.2rem;}
+main .product .info .left .btn:hover {background-color: #f1f1f1;}
+main .product .info .left .btn {
+    display: block;
+    border:1px solid #000;
+    width:480px;
+    text-align: center;
+    padding:30px 0;
+    font-size: 1.3rem;
+}
+main .product .info .right {}
+main .product .info .right ul {display: flex; flex-flow: row nowrap;}
+main .product .info .right ul li:first-child {font-weight: 500;}
+main .product .info .right ul li {font-size: 1.7rem; margin-bottom:50px; margin-right: 36px;}
+main .product .info .right p:last-child {line-height: 40px; font-size: 1.2rem;}

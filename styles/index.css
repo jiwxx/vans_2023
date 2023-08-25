@@ -44,10 +44,20 @@ header .btm nav {
 header .btm nav ul {
     display: flex; flex-flow: row nowrap;
     padding-top:28px;
+    position: relative;
 }
 header .btm nav ul li:last-child {margin-right: 0;}
+header .btm nav ul li::after {
+    content:''; display:block;
+    width:100%; height:2px; background-color: #D51920;
+    position:absolute; bottom:-1px;
+    transform:scale(0); transition:transform 0.5s;
+}
+header .btm nav ul li:hover::after {transform:scale(1);}
 header .btm nav ul li {
     margin-right: 20px;
+    position: relative;
+    padding-bottom:10px;
 }
 header .btm nav ul li a {
     letter-spacing: -0.04em;
@@ -165,7 +175,7 @@ main .product .trending #vans_slide .swiper-wrapper .slide2 {}
 main .product .trending #vans_slide .swiper-wrapper .slide3 {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents:first-child {}
-main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {margin-right: 25px;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
@@ -182,11 +192,11 @@ main .collabo {}
 main .collabo h2 {
     font-size: 2.36rem; font-weight:800; margin-bottom: 45px;
 }
-main .collabo .collabo_c {display: flex; flex-flow: row nowrap; justify-content: space-between;}
+main .collabo .collabo_c {display: flex; flex-flow: row nowrap;}
 main .collabo .collabo_c .box:last-child {margin-right: 0px;}
 main .collabo .collabo_c .box {
     display:flex; flex-flow: column nowrap;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 main .collabo .collabo_c .box a {
     margin-bottom: 25px;

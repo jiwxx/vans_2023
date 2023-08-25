@@ -103,6 +103,7 @@ main .signin #sign {
 main .signin #sign {
     background-color:#D51920;
     margin-bottom: 10px; color:#fff;
+    border:0;
 }
 main .signin #searchOdr {
     background-color: #fff;
