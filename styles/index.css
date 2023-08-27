@@ -92,6 +92,8 @@ header .btm .right .icon a img {}
 /* main */
 main > * {margin-bottom: 100px;}
 main {}
+main .m_event {text-align: center;}
+main .m_event img {width: 100%;}
 main .event {
     /* background-color: pink; */
 }
@@ -130,7 +132,7 @@ main .wrap .txt a {
     transition: background 0.2s linear;
 }
 /* wrap2 */
-main .wrap2 {
+/* main .wrap2 {
     background-color: darksalmon;
 }
 main .wrap2 .bnr_bg {
@@ -138,13 +140,13 @@ main .wrap2 .bnr_bg {
     background-size: cover;
     width: 100%; height: 650px;
     background-position: center;
-    /* position: relative; */
+    
 }
 main .wrap2 .bnr_bg .txt > * { margin-bottom: 40px; }
 main .wrap2 .bnr_bg .txt {
     text-align: center;
     padding-top:226px;
-    /* position:absolute; left:30%; */
+    
 }
 main .wrap2 .bnr_bg .txt h2 {font-size: 2.36rem; font-weight:800;}
 main .wrap2 .bnr_bg .txt p {line-height: 30px; font-size:1.3rem;}
@@ -152,9 +154,8 @@ main .wrap2 .bnr_bg .txt .wrap2_btn:hover {background-color: #222; color:#fff;}
 main .wrap2 .bnr_bg .txt .wrap2_btn {
     border: 1px solid #222;
     padding:13px 50px;
-    /* border-radius:50px; */
     transition: background 0.2s linear;
-}
+} */
 
 main .product {}
 main .product h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
