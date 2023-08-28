@@ -151,6 +151,10 @@
     <?php include('./footer.php') ?>
     <script>
         const shoes_slide = new Swiper('#shoes_slide',{
+            breakpoints:{
+                1400:{slidesPerview:3},
+                800:{}
+            },
             navigation: {
                 nextEl:'#vans_slide ..swiper-button-next',
                 prevEl:'#vans_slide ..swiper-button-prev',

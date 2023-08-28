@@ -5,7 +5,6 @@ main {
 main .m_bnr {
     /* background-color: yellowgreen; */
     display: flex; flex-flow: column nowrap; align-items: center;
-    
 }
 main .m_bnr h2 {
     text-align: center;
@@ -20,28 +19,28 @@ main .m_bnr .bnr_contents .box .bg1 {
     /* background-color: rosybrown; */
     background-image: url(../images/list_bnr_01.png);
     background-size: cover;
-    width:427px; height: 589px;
-    /* width:500px; height:698px; */
+    width:583px; height: 804px;
+    /* width:427px; height: 589px; 1440px*/
 }
 main .m_bnr .bnr_contents .box .bg > * {color:#fff; text-align: center; line-height: 40px;}
-main .m_bnr .bnr_contents .box .bg p span {font-size: 1.3rem;}
-main .m_bnr .bnr_contents .box .bg p em {font-size: 1.7rem; font-weight:600;}
+main .m_bnr .bnr_contents .box .bg p span {font-size: 1.7rem;}
+main .m_bnr .bnr_contents .box .bg p em {font-size: 2.3rem; font-weight:600;}
 main .m_bnr .bnr_contents .box .bg1 span {}
 main .m_bnr .bnr_contents .box .bg1 span {}
 main .m_bnr .bnr_contents .box .bg1 em {}
 main .m_bnr .bnr_contents .box .bg2 {
     background: url(../images/list_bnr_02.png) no-repeat;
     background-size: cover;
-    width:427px; height: 589px;
-    /* width:500px; height:698px; */
+    width:583px; height: 804px;
+    /* width:427px; height: 589px; */
 }
 main .m_bnr .bnr_contents .box .bg2 span {}
 main .m_bnr .bnr_contents .box .bg2 em {}
 main .m_bnr .bnr_contents .box .bg3 {
     background: url(../images/list_bnr_03.png) no-repeat;
     background-size: cover;
-    width:427px; height: 589px;
-    /* width:500px; height:698px; */
+    width:583px; height: 804px;
+    /* width:427px; height: 589px; */
 }
 main .m_bnr .bnr_contents .box .bg3 span {}
 main .m_bnr .bnr_contents .box .bg3 em {}
@@ -54,14 +53,16 @@ main .menu {
 main .menu .menu_box:hover {background-color: #222; color:#fff; border:0;}
 main .menu .menu_box {
     display: block;
-    border:1px solid #000; width:250px; height: 130px;
+    border:1px solid #000;
+    width:350px; height:182px;
+    /* width:250px; height: 130px; */
     padding-top:20px;
     transition: background-color 0.2s linear;
 }
-main .menu .menu_box P {}
+main .menu .menu_box P {padding-top:15px;}
 main .menu .menu_box > * {text-align:center; line-height:40px;}
 main .menu .menu_box P:first-child {font-size: 1.3rem;}
-main .menu .menu_box P:last-child {font-size: 1.7rem;}
+main .menu .menu_box P:last-child {font-size: 2.1rem;}
 main .shoes {
     margin-top:100px;
 }
@@ -128,25 +129,24 @@ main .items .shItem:nth-of-type(4){background-image: url(../images/sub_menu04.pn
 main .items .shItem:nth-of-type(5){background-image: url(../images/sub_menu05.png);}
 main .items .shItem {
     position: relative;
-    width:250px; height: 180px;
-    /* width:300px; height: 216px; */
+    width:340px; height:244px;
+    /* width:250px; height: 180px; 1440px*/
     transition: transform 0.5s ease;
     background: no-repeat; background-size: cover;
     margin-left:5px;
 }
 main .items .shItem a {
-    font-size: 1.3rem; color:#fff;
+    font-size: 1.7rem; color:#fff;
 }
-main .items .shItem:nth-of-type(1) a {position:absolute; left:83px; top:80px;}
-main .items .shItem:nth-of-type(2) a {position:absolute; left:69px; top:80px;}
-main .items .shItem:nth-of-type(3) a {position:absolute; left:72px; top:80px;}
-main .items .shItem:nth-of-type(4) a {position:absolute; left:106px; top:80px;}
-main .items .shItem:nth-of-type(5) a {position:absolute; left:93px; top:80px;}
+main .items .shItem:nth-of-type(1) a {position:absolute; left:110px; top:100px;}
+main .items .shItem:nth-of-type(2) a {position:absolute; left:89px; top:100px;}
+main .items .shItem:nth-of-type(3) a {position:absolute; left:92px; top:100px;}
+main .items .shItem:nth-of-type(4) a {position:absolute; left:146px; top:100px;}
+main .items .shItem:nth-of-type(5) a {position:absolute; left:125px; top:100px;}
 main .items .shItem::after {content:'';
     background-color: rgba(0,0,0,0.3);
     display: block; 
-    width:250px; height:180px;
-    /* width:300px; height: 216px; */
+    width:340px; height:244px;
 }
 main .items .shItem:hover:after {
     opacity:0; 

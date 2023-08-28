@@ -15,17 +15,29 @@ header .top p {
     color:#fff;
     font-weight: 500;
     font-size: 0.75rem;
-    position:absolute; right:43%;
+    position:absolute; 
+    left:50%;
+    transform:translateX(-50%);
+    line-height: 22px;
 }
 header .top .right {position:absolute; right:0; padding-right: 60px;}
 header .top .right a {
     color:#fff;
     font-weight: 500;
-    border-right:1px solid #fff;
     line-height: 5px;
     padding:0px 10px;
     font-size: 0.75rem;
-    
+}
+header .top .right a:last-child:after{display: none;}
+header .top .right a::after {
+    content:'';
+    display:inline-block;
+    width:1px;
+    height:10px;
+    background:#fff;
+    position:relative;
+    right:-14px;
+    top:1px;
 }
 header .top .right a:last-child {border-right:0;}
 header .btm {
@@ -60,7 +72,7 @@ header .btm nav ul li {
     padding-bottom:10px;
 }
 header .btm nav ul li a {
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
     font-weight: 500;
 }
 /* 서브메뉴 */

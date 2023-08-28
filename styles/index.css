@@ -2,7 +2,7 @@
 main {width:calc(100% - 120px); margin:0 auto; letter-spacing: -0.04rem;}
 /* main */
 main > * {margin-bottom: 100px;}
-main {margin-top:200px;}
+main {margin-top:130px;}
 main .m_event {text-align: center;}
 main .m_event img {width: 100%;}
 main .event {
@@ -42,32 +42,6 @@ main .wrap .txt a {
     border-radius:50px;
     transition: background 0.2s linear;
 }
-/* wrap2 */
-/* main .wrap2 {
-    background-color: darksalmon;
-}
-main .wrap2 .bnr_bg {
-    background:url(../images/bnr_bg.png) no-repeat;
-    background-size: cover;
-    width: 100%; height: 650px;
-    background-position: center;
-    
-}
-main .wrap2 .bnr_bg .txt > * { margin-bottom: 40px; }
-main .wrap2 .bnr_bg .txt {
-    text-align: center;
-    padding-top:226px;
-    
-}
-main .wrap2 .bnr_bg .txt h2 {font-size: 2.36rem; font-weight:800;}
-main .wrap2 .bnr_bg .txt p {line-height: 30px; font-size:1.3rem;}
-main .wrap2 .bnr_bg .txt .wrap2_btn:hover {background-color: #222; color:#fff;}
-main .wrap2 .bnr_bg .txt .wrap2_btn {
-    border: 1px solid #222;
-    padding:13px 50px;
-    transition: background 0.2s linear;
-} */
-
 main .product {}
 main .product h2 {font-size: 2.36rem; font-weight:800; margin-bottom: 45px;}
 main .product #vans_slide {
@@ -89,7 +63,7 @@ main .product .trending #vans_slide .swiper-wrapper .swiper-slide {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents:first-child {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {margin-right: 25px;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {}
-main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a img {}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a img {width:100%;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt a {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {line-height: 30px;}
@@ -113,7 +87,7 @@ main .collabo .collabo_c .box {
 main .collabo .collabo_c .box a {
     margin-bottom: 25px;
 }
-main .collabo .collabo_c .box a img {}
+main .collabo .collabo_c .box a img {width: 100%;}
 main .collabo .collabo_c .box .contents > * {margin-bottom: 25px; line-height: 30px;}
 main .collabo .collabo_c .box .contents {}
 main .collabo .collabo_c .box .contents h3 {font-size: 1.7rem; font-weight: 500;}

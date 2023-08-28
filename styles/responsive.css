@@ -30,8 +30,158 @@
         justify-content: center;
     }
     main .collabo .collabo_c .box {margin-bottom: 40px;}
+    main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {width:300px; height: 300px;}
 }
 /* product_list */
+@media screen and (max-width:1440px){ /* --------------------------------------- */
+    main .m_bnr {
+        /* background-color: yellowgreen; */
+        display: flex; flex-flow: column nowrap; align-items: center;
+    }
+    main .m_bnr .bnr_contents {display: flex; flex-flow: row nowrap; }
+    main .m_bnr .bnr_contents .box:first-child{margin-left: 0px;}
+    main .m_bnr .bnr_contents .box {margin-left: 20px;}
+    main .m_bnr .bnr_contents .box .bg {padding-top:320px;}
+    main .m_bnr .bnr_contents .box .bg1 {
+        /* background-color: rosybrown; */
+        background-image: url(../images/list_bnr_01.png);
+        background-size: cover;
+        width:427px; height: 589px;
+        /* width:500px; height:698px; */
+    }
+    main .m_bnr .bnr_contents .box .bg > * {color:#fff; text-align: center; line-height: 40px;}
+    main .m_bnr .bnr_contents .box .bg p span {font-size: 1.3rem;}
+    main .m_bnr .bnr_contents .box .bg p em {font-size: 1.7rem; font-weight:600;}
+    main .m_bnr .bnr_contents .box .bg1 span {}
+    main .m_bnr .bnr_contents .box .bg1 span {}
+    main .m_bnr .bnr_contents .box .bg1 em {}
+    main .m_bnr .bnr_contents .box .bg2 {
+        background: url(../images/list_bnr_02.png) no-repeat;
+        background-size: cover;
+        width:427px; height: 589px;
+        /* width:500px; height:698px; */
+    }
+    main .m_bnr .bnr_contents .box .bg2 span {}
+    main .m_bnr .bnr_contents .box .bg2 em {}
+    main .m_bnr .bnr_contents .box .bg3 {
+        background: url(../images/list_bnr_03.png) no-repeat;
+        background-size: cover;
+        width:427px; height: 589px;
+        /* width:500px; height:698px; */
+    }
+    main .m_bnr .bnr_contents .box .bg3 span {}
+    main .m_bnr .bnr_contents .box .bg3 em {}
+    /* shoes menu */
+    main .menu {
+        display: flex; flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-top:50px;
+    }
+    main .menu .menu_box:hover {background-color: #222; color:#fff; border:0;}
+    main .menu .menu_box {
+        display: block;
+        border:1px solid #000; width:250px; height: 130px;
+        padding-top:20px;
+        transition: background-color 0.2s linear;
+    }
+    main .menu .menu_box P {padding-top:0px;}
+    main .menu .menu_box > * {text-align:center; line-height:40px;}
+    main .menu .menu_box P:first-child {font-size: 1.3rem;}
+    main .menu .menu_box P:last-child {font-size: 1.7rem;}
+    main .shoes {
+        margin-top:100px;
+    }
+    main .shoes .s_top {
+        display: flex; flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 25px;
+        border-bottom:1px solid #000;
+    }
+    main .shoes .s_top h2 {font-size:3.1rem; font-weight: 500;}
+    main .shoes .s_top a {} 
+    main .shoes .s_top a img {width:25px; height: 25px;}
+    main .shoes .list > * {margin-bottom: 30px;}
+    main .shoes .list {
+        margin-top: 35px;
+    }
+    main .shoes .list .p_top {
+        display:flex; flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    main .shoes .list .p_top a {padding-left:5px;}
+    main .shoes .list .p_top a p:first-child {padding-left:0;}
+    main .shoes .list .p_top a p:hover {}
+    main .shoes .list .p_top a p {margin-bottom: 25px;}
+    main .shoes .list .p_top a p img {width:100%;}
+    main .shoes .list .p_top a h2 {line-height: 30px;}
+    main .shoes .list .p_top a p:last-child {line-height: 30px;}
+    main .shoes .list .p_btm {
+        display:flex; flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    main .shoes .list .p_btm a {padding-left:5px;}
+    main .shoes .list .p_btm a p:first-child {padding-left:0;}
+    main .shoes .list .p_btm a {}
+    main .shoes .list .p_btm a p {margin-bottom: 25px;}
+    main .shoes .list .p_btm a p img {width:100%;}
+    main .shoes .list .p_btm a h2 {line-height: 30px;}
+    main .shoes .list .p_btm a p:first-child {}
+    main .shoes .list .p_btm a p:last-child {line-height: 30px;}
+    
+    main .sub_bnr {width:100%; margin-top: 80px;}
+    main .sub_bnr .sub_bg {
+        background-image: url(../images/sub_bg.png);
+        background-size: cover;
+        height:391px;
+        width:100%;
+    }
+    main .sub_bnr .sub_bg p {
+        font-size: 6.25rem; font-weight: 800; color:#fff; text-align: center;
+        padding-top:50px; line-height: 145px;
+    }
+    main .items {
+        display: flex; flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-top:25px;
+        margin-bottom: 100px;
+        overflow: hidden; 
+    }
+    main .items .shItem:nth-of-type(1){background-image: url(../images/sub_menu01.png); margin-left:0px;}
+    main .items .shItem:nth-of-type(2){background-image: url(../images/sub_menu02.png);}
+    main .items .shItem:nth-of-type(3){background-image: url(../images/sub_menu03.png);}
+    main .items .shItem:nth-of-type(4){background-image: url(../images/sub_menu04.png);}
+    main .items .shItem:nth-of-type(5){background-image: url(../images/sub_menu05.png);}
+    main .items .shItem {
+        position: relative;
+        width:250px; height: 180px;
+        /* width:300px; height: 216px; */
+        transition: transform 0.5s ease;
+        background: no-repeat; background-size: cover;
+        margin-left:5px;
+    }
+    main .items .shItem a {
+        font-size: 1.3rem; color:#fff;
+    }
+    main .items .shItem:nth-of-type(1) a {position:absolute; left:83px; top:80px;}
+    main .items .shItem:nth-of-type(2) a {position:absolute; left:69px; top:80px;}
+    main .items .shItem:nth-of-type(3) a {position:absolute; left:72px; top:80px;}
+    main .items .shItem:nth-of-type(4) a {position:absolute; left:106px; top:80px;}
+    main .items .shItem:nth-of-type(5) a {position:absolute; left:93px; top:80px;}
+    main .items .shItem::after {content:'';
+        background-color: rgba(0,0,0,0.3);
+        display: block; 
+        width:250px; height:180px;
+        /* width:300px; height: 216px; */
+    }
+    main .items .shItem:hover:after {
+        opacity:0; 
+    }
+    main .items .shItem:hover {
+        text-indent: -999999px;
+        transform:scale(1.1);
+    }
+}
 @media screen and (max-width:1200px){
     main .m_bnr .bnr_contents .box .bg1,
     main .m_bnr .bnr_contents .box .bg2,
@@ -80,8 +230,10 @@
     main .items .shItem:nth-of-type(5) a {position:absolute; left:50px; top:50px;}
 }
 /* shoes */
-@media screen and(max-width:1050px){
-    
+@media screen and (max-width:1100px){
+    main .product .info {
+        display: flex; flex-flow: column nowrap;
+    }
 }
 /* 모바일 */
 @media screen and (max-width:481px){
@@ -89,7 +241,7 @@
     header .btm .right .icon a:first-child {display: none;}
     header .btm .right #searchFrm {display: none;}
     header .btm .right .icon a:last-child {}
-    /* main */
+    /* poroduct_list - main */
     main .m_bnr h2 {font-size: 1.7rem;}
     main .shoes .s_top h2{font-size: 1.7rem;}
     main .m_bnr .bnr_contents .box .bg1,
@@ -105,6 +257,7 @@
     main .menu .menu_box P {line-height: 15px;}
     main .menu .menu_box P:first-child {font-size:0.7rem;}
     main .menu .menu_box P:last-child  {font-size:0.7rem;}
+    main .shoes .s_top a img {width:18px; height: 18px;}
     main .shoes .list .p_top a h2 {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
     main .shoes .list .p_top a p:last-child {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
     main .shoes .list .p_top a p {margin-bottom: 5px;}
@@ -118,6 +271,18 @@
         justify-content: center
     }
     main .items .shItem {margin:10px;}
+    /* index - main */
+    main > * {margin-bottom: 80px;}
+    main .m_event {margin-top:150px;}
+    main .wrap .txt h2 {font-size: 1.7rem; font-weight: 600; margin-top: 20px;}
+    main .event .txt h2 {font-size: 1.7rem; font-weight: 600;}
+    main .product h2,main .collabo h2 {font-size: 1.7rem; font-weight: 600; text-align: center;}
+    main .collabo .collabo_c{display: flex; flex-flow: row wrap; justify-content: center;}
+    main .collabo .collabo_c .box {width:150px;}
+    main .collabo .collabo_c .box a {width:150px; height: 291px;}
+    main .collabo .collabo_c .box .contents h3 {font-size: 1.3rem; font-weight: 500;}
+    main .collabo .collabo_c .box .contents >* {line-height: 23px;}
+    main .collabo .collabo_c .box .contents p {font-size: 1rem;}
 }
 
 

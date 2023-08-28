@@ -44,7 +44,7 @@ main .product .info .left .title h1 {font-size: 1.7rem; font-weight: 500;}
 main .product .info .left .title h2 {font-size: 1.3rem; font-weight: 500; margin-top: 20px;}
 main .product .info .left p {font-size: 1.3rem;}
 main .product .info .left p em {font-size: 1.7rem; font-weight: 500; margin-right:10px;}
-main .product .info .left #size {width:183px; font-size: 1.3rem; padding:5px 30px;}
+main .product .info .left #size {width:183px; font-size: 1.3rem; padding:5px 25px;}
 main .product .info .left #size option {font-size: 1.2rem;}
 main .product .info .left .btn:hover {background-color: #f1f1f1;}
 main .product .info .left .btn {
