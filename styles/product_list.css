@@ -51,12 +51,12 @@ main .menu {
     justify-content: space-between;
     margin-top:50px;
 }
-main .menu .menu_box:hover {background-color: #D51920; color:#fff; border:0;}
+main .menu .menu_box:hover {background-color: #222; color:#fff; border:0;}
 main .menu .menu_box {
     display: block;
     border:1px solid #000; width:250px; height: 130px;
     padding-top:20px;
-    transition: background-color 0.3s linear;
+    transition: background-color 0.2s linear;
 }
 main .menu .menu_box P {}
 main .menu .menu_box > * {text-align:center; line-height:40px;}
