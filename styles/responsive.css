@@ -1,4 +1,5 @@
 
+/* header */
 @media screen and (max-width:1200px){
     main {width:calc(100% - 30px);}
     header .btm nav ul {display:none;}
@@ -37,14 +38,29 @@
     main .m_bnr .bnr_contents .box .bg3 {
         width:350px; height: 482px;
     }
+    main .m_bnr .bnr_contents .box .bg {padding-top:200px;}
     main .menu .menu_box {width:200px; height: 130px;}
+    main .items .shItem,
+    main .items .shItem::after {width:200px; height: 144px;}
+    main .items .shItem a {font-size: 1rem;}
+    main .items .shItem:nth-of-type(1) a {position:absolute; left:63px; top:70px;}
+    main .items .shItem:nth-of-type(2) a {position:absolute; left:53px; top:70px;}
+    main .items .shItem:nth-of-type(3) a {position:absolute; left:60px; top:70px;}
+    main .items .shItem:nth-of-type(4) a {position:absolute; left:84px; top:70px;}
+    main .items .shItem:nth-of-type(5) a {position:absolute; left:70px; top:70px;}
 }
 @media screen and (max-width:1100px){
     main .menu {
         display: flex; flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center
     }
-    main .menu .menu_box {margin:15px;}
+    main .menu .menu_box {
+        margin:5px;
+        width:180px; height: 93px;
+    }
+    main .menu .menu_box P {line-height: 25px;}
+    main .menu .menu_box P:first-child {font-size:0.7rem;}
+    main .menu .menu_box P:last-child  {font-size:1rem;}
 }
 @media screen and (max-width:900px){
     main .m_bnr .bnr_contents .box .bg1,
@@ -52,4 +68,56 @@
     main .m_bnr .bnr_contents .box .bg3 {
         width:250px; height: 344px;
     }
+    main .m_bnr .bnr_contents .box .bg {padding-top:100px;}
+    main .m_bnr .bnr_contents .box .bg p span {font-size: 1rem;}
+    main .m_bnr .bnr_contents .box .bg p em {font-size: 1.3rem; font-weight:500;}
+    main .items .shItem,
+    main .items .shItem::after {width:150px; height: 108px;}
+    main .items .shItem:nth-of-type(1) a {position:absolute; left:43px; top:50px;}
+    main .items .shItem:nth-of-type(2) a {position:absolute; left:33px; top:50px;}
+    main .items .shItem:nth-of-type(3) a {position:absolute; left:40px; top:50px;}
+    main .items .shItem:nth-of-type(4) a {position:absolute; left:64px; top:50px;}
+    main .items .shItem:nth-of-type(5) a {position:absolute; left:50px; top:50px;}
 }
+/* shoes */
+@media screen and(max-width:1050px){
+    
+}
+/* 모바일 */
+@media screen and (max-width:481px){
+    /* header */
+    header .btm .right .icon a:first-child {display: none;}
+    header .btm .right #searchFrm {display: none;}
+    header .btm .right .icon a:last-child {}
+    /* main */
+    main .m_bnr h2 {font-size: 1.7rem;}
+    main .shoes .s_top h2{font-size: 1.7rem;}
+    main .m_bnr .bnr_contents .box .bg1,
+    main .m_bnr .bnr_contents .box .bg2,
+    main .m_bnr .bnr_contents .box .bg3 {
+        width:130px; height: 179px;
+    }
+    main .m_bnr .bnr_contents .box .bg >*{line-height: 25px;}
+    main .m_bnr .bnr_contents .box .bg {padding-top:50px;}
+    main .m_bnr .bnr_contents .box .bg p span {font-size: 0.7rem;}
+    main .m_bnr .bnr_contents .box .bg p em {font-size: 1rem; font-weight:500;}
+    main .menu .menu_box {width:100px; height: 56px; padding-top: 13px;}
+    main .menu .menu_box P {line-height: 15px;}
+    main .menu .menu_box P:first-child {font-size:0.7rem;}
+    main .menu .menu_box P:last-child  {font-size:0.7rem;}
+    main .shoes .list .p_top a h2 {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
+    main .shoes .list .p_top a p:last-child {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
+    main .shoes .list .p_top a p {margin-bottom: 5px;}
+    main .shoes .list .p_btm a h2 {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
+    main .shoes .list .p_btm a p:last-child {line-height: 20px; font-size: 0.7rem; letter-spacing: -0.05rem;}
+    main .shoes .list .p_btm a p {margin-bottom: 5px;}
+    main .sub_bnr .sub_bg p {font-size: 1.7rem; line-height: 40px; padding-top:60px;}
+    main .sub_bnr .sub_bg {width:429px; height: 201px;}
+    main .items {
+        display: flex; flex-flow: row wrap;
+        justify-content: center
+    }
+    main .items .shItem {margin:10px;}
+}
+
+
