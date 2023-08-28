@@ -1,4 +1,96 @@
 
+header {
+    position:fixed; left:0; top:0; z-index:999;
+    width:100%;
+}
+header .top {
+    padding:10px;
+    background-color: #222;
+    display: flex;
+    height: 42px;
+    width:100%;
+    position: relative;
+}
+header .top p {
+    color:#fff;
+    font-weight: 500;
+    font-size: 0.75rem;
+    position:absolute; right:43%;
+}
+header .top .right {position:absolute; right:0; padding-right: 60px;}
+header .top .right a {
+    color:#fff;
+    font-weight: 500;
+    border-right:1px solid #fff;
+    line-height: 5px;
+    padding:0px 10px;
+    font-size: 0.75rem;
+    
+}
+header .top .right a:last-child {border-right:0;}
+header .btm {
+    width:calc(100% - 120px);
+    margin: 0 auto;
+    padding:15px ;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #fff;
+}
+header .btm h1 {}
+header .btm h1 a {}
+header .btm h1 a img {width:150px; height: 70px;}
+header .btm nav {
+    align-items: center;
+}
+header .btm nav ul {
+    display: flex; flex-flow: row nowrap;
+    padding-top:28px;
+    position: relative;
+}
+header .btm nav ul li:last-child {margin-right: 0;}
+header .btm nav ul li::after {
+    content:''; display:block;
+    width:100%; height:2px; background-color: #D51920;
+    position:absolute; bottom:-1px;
+    transform:scale(0); transition:transform 0.5s;
+}
+header .btm nav ul li:hover::after {transform:scale(1);}
+header .btm nav ul li {
+    margin-right: 20px;
+    position: relative;
+    padding-bottom:10px;
+}
+header .btm nav ul li a {
+    letter-spacing: -0.04em;
+    font-weight: 500;
+}
+/* 서브메뉴 */
+header .btm nav ul li .snb {}
+header .btm nav ul li .snb li {}
+header .btm nav ul li .snb li a {}
+/* ----------------------------------------- */
+header .btm .right {
+    display: flex; flex-flow: row nowrap; align-items: center;
+}
+header .btm .right #searchFrm {
+    background-color:#222;
+    padding:11px 0; border-radius: 30px;
+    width:200px;
+}
+header .btm .right #searchFrm fieldset {
+    display: flex;
+}
+header .btm .right #searchFrm fieldset #searchBtn {background: none; padding-left:10px;}
+header .btm .right #searchFrm fieldset #searchBtn img  {}
+header .btm .right #searchFrm fieldset #searchTxt::placeholder {color:#fff;}
+header .btm .right #searchFrm fieldset #searchTxt {
+    background:none ; color:#fff; padding-left:10px;
+}
+header .btm .right .icon {}
+header .btm .right .icon a:first-child {margin:0 20px;}
+header .btm .right .icon a {}
+header .btm .right .icon a img {}
+/* footer */
 footer > * { color:#fff;}
 footer {
     background-color: #222;

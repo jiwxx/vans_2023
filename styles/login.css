@@ -5,7 +5,7 @@ main {
     /* background: pink; */
     text-align: center;
     display:flex; flex-flow: column nowrap;
-    padding-top:100px;
+    padding-top:200px;
 }
 main > * {margin-bottom:50px;}
 main .Mlogo {

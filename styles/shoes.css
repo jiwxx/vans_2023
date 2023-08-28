@@ -3,23 +3,23 @@ main {
     margin:0 auto;
     width:calc(100% - 120px);
 }
-main .product {}
+main .product {margin-top:100px;}
 main .product #shoes_slide{}
 main .product #shoes_slide .swiper-wrapper {}
 main .product #shoes_slide .swiper-wrapper .swiper-slide {
     display: flex; flex-flow: row nowrap;
     justify-content: center;
 }
-main .product #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 45px;}
-main .product #shoes_slide .swiper-wrapper .swiper-slide p img:first-child {margin-left:0;}
-main .product #shoes_slide .swiper-wrapper .swiper-slide p img {width:100%;}
-main .product #shoes_slide .swiper-wrapper .slide1 {}
-main .product #shoes_slide .swiper-wrapper .slide2 {}
-main .product #shoes_slide .swiper-wrapper .slide3 {}
-main .product #shoes_slide .swiper-button-prev {background: url(../images/nav_left.png) no-repeat; width:50px; height:50px; left:35px;}
-main .product #shoes_slide .swiper-button-next {background: url(../images/nav_right.png) no-repeat; width:50px; height:50px; right:-15px;}
-main .product #shoes_slide .swiper-button-prev::after,
-main .product #shoes_slide .swiper-button-next::after {display: none;}
+main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 45px;}
+main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img:first-child {margin-left:0;}
+main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img {width:100%;}
+main .product .shoes_info #shoes_slide .swiper-wrapper .slide1 {}
+main .product .shoes_info #shoes_slide .swiper-wrapper .slide2 {}
+main .product .shoes_info #shoes_slide .swiper-wrapper .slide3 {}
+main .product .shoes_info .swiper-button-prev {background: url(../images/nav_left.png) no-repeat; width:50px; height:50px; left:50px;}
+main .product .shoes_info .swiper-button-next {background: url(../images/nav_right.png) no-repeat; width:50px; height:50px; right:50px;}
+main .product .shoes_info .swiper-button-prev::after,
+main .product .shoes_info .swiper-button-next::after {display: none;}
 main .product .info {
     display: flex; flex-flow: row nowrap;
     justify-content: center;
