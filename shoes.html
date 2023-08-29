@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/shoes.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/shoes_reponsive.css">
+    <link rel="stylesheet" href="./styles/common_reponsive.css">
 </head>
 <body>
     <header>
@@ -153,7 +154,7 @@
         const shoes_slide = new Swiper('#shoes_slide',{
             breakpoints:{
                 1400:{slidesPerview:3},
-                800:{}
+                480:{slidesPerview:1},
             },
             navigation: {
                 nextEl:'#vans_slide ..swiper-button-next',

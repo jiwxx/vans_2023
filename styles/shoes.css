@@ -1,5 +1,5 @@
 main {
-    padding:100px;
+    padding:100px 0;
     margin:0 auto;
     width:calc(100% - 120px);
 }
@@ -10,7 +10,7 @@ main .product #shoes_slide .swiper-wrapper .swiper-slide {
     display: flex; flex-flow: row nowrap;
     justify-content: center;
 }
-main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 45px;}
+main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left:10px;}
 main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img:first-child {margin-left:0;}
 main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img {width:100%;}
 main .product .shoes_info #shoes_slide .swiper-wrapper .slide1 {}

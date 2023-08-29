@@ -1,0 +1,30 @@
+
+/* index */
+@media screen and (max-width:1200px){
+    main .collabo .collabo_c {
+        display:flex; flex-flow: row wrap;
+        justify-content: center;
+    }
+    main .collabo .collabo_c .box {margin-bottom: 40px;}
+    main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {width:300px; height: 300px;}
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:481px){
+    /* index - main */
+    main > * {margin-bottom: 80px;}
+    main .m_event {margin-top:150px;}
+    main .wrap .txt h2 {font-size: 1.7rem; font-weight: 600; margin-top: 20px;}
+    main .event .txt h2 {font-size: 1.7rem; font-weight: 600;}
+    main .product h2,main .collabo h2 {font-size: 1.7rem; font-weight: 600; text-align: center;}
+    main .collabo .collabo_c{display: flex; flex-flow: row wrap; justify-content: center;}
+    main .collabo .collabo_c .box {width:150px;}
+    main .collabo .collabo_c .box a {width:150px; height: 291px;}
+    main .collabo .collabo_c .box .contents h3 {font-size: 1.3rem; font-weight: 500;}
+    main .collabo .collabo_c .box .contents >* {line-height: 23px;}
+    main .collabo .collabo_c .box .contents p {font-size: 1rem;}
+}
+
+

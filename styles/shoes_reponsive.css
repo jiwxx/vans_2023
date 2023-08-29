@@ -1,0 +1,43 @@
+/* shoes */
+@media screen and (max-width:1100px){
+    main .product .info {
+        display: flex; flex-flow: column nowrap;
+    }
+}
+@media screen and (max-width:800px){
+    main .product .shoes_info .swiper-button-prev {background: url(../images/nav_left_s.png) no-repeat; width:50px; height:50px; left:10px; top:330px;}
+    main .product .shoes_info .swiper-button-next {background: url(../images/nav_right_s.png) no-repeat; width:25px; height:25px; right:10px; top:330px;}
+}
+
+/* 모바일 */
+@media screen and (max-width:481px){
+    /* shoes */
+    main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img {width:140px; height: 186px;}
+    main .product .shoes_info .swiper-button-prev {background: url(../images/nav_left_s.png) no-repeat; width:50px; height:50px; left:10px; top:250px;}
+    main .product .shoes_info .swiper-button-next {background: url(../images/nav_right_s.png) no-repeat; width:25px; height:25px; right:10px; top:250px;}
+    main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 15px;}
+    main .product .info .left .color a {
+        display: inline-block;
+        width:20px; height:20px;
+        border-radius: 50%;
+    }
+    main .product .info .left .color > * {margin-left:3px;}
+    main .product {margin-top: 50px;}
+    main .product .info .left > * {margin-bottom: 20px;}
+    main .product .info .left .title h1 {font-size: 1.7rem; font-weight: 500;}
+    main .product .info .left .title h2 {font-size: 1.3rem; font-weight: 500; margin-top: 20px;}
+    main .product .info .left p {font-size: 1rem;}
+    main .product .info .left p em {font-size: 1.3rem; font-weight: 500; margin-right:5px;}
+    main .product .info .left #size option {font-size: 1rem;}
+    main .product .info .left #size {width:150px; font-size: 1rem; padding:5px 20px;}
+    main .product .info .left .btn {
+        display: block;
+        border:1px solid #000;
+        width:375px;
+        text-align: center;
+        padding:20px 0;
+        font-size: 1.3rem;
+    }
+    main .product .info .right ul li {font-size: 1.3rem; margin:25px 25px 20px 0;}
+main .product .info .right p:last-child {line-height: 30px; font-size: 1rem;}
+}
