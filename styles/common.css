@@ -81,8 +81,7 @@ header .btm nav ul li a {
 /* 서브메뉴 */
 header .btm nav ul li .snb_all {
     display: flex; flex-flow: row nowrap;
-    position:absolute;
-    margin-top:36px;
+    position:absolute; top:55px;
     height: 345px;
     background-color: #f1f1f1;
     z-index:150;
@@ -91,7 +90,7 @@ header .btm nav ul li .snb_all .snb {
     display: flex; flex-flow: column nowrap;
 }
 header .btm nav ul li .snb_all .snb li {}
-header .btm nav ul li .snb_all .snb li a {line-height: 40px; width:200px;}
+header .btm nav ul li .snb_all .snb li a {line-height: 30px; width:200px;}
 header .btm nav ul li .snb_all .snb li:first-child a{color:#D51920;}
 /* ----------------------------------------- */
 header .btm .right {
@@ -118,7 +117,7 @@ header .btm .right .icon a img {}
 header .nav_bg{
     background-color:#f1f1f1 ;
     width:1920px; height: 345px;
-    position: absolute; top:132px;
+    position: absolute; top:134px;
     z-index:100;
 }
 /* footer */

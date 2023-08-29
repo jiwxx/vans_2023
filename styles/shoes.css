@@ -57,6 +57,9 @@ main .product .info .left .btn {
 }
 main .product .info .right {}
 main .product .info .right ul {display: flex; flex-flow: row nowrap;}
-main .product .info .right ul li:first-child {font-weight: 500;}
-main .product .info .right ul li {font-size: 1.7rem; margin-bottom:50px; margin-right: 36px;}
-main .product .info .right p:last-child {line-height: 40px; font-size: 1.2rem;}
+main .product .info .right ul li :first-child {}
+main .product .info .right ul li h4 {
+    font-size: 1.7rem; margin-right: 36px;
+    cursor: pointer;
+}
+main .product .info .right ul li p:last-child {line-height: 40px; font-size: 1.2rem; padding-top:20px;}

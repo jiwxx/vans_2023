@@ -13,7 +13,7 @@
 @media screen and (max-width:481px){
     /* shoes */
     main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide p img {width:140px; height: 186px;}
-    main .product .shoes_info .swiper-button-prev {background: url(../images/nav_left_s.png) no-repeat; width:50px; height:50px; left:10px; top:250px;}
+    main .product .shoes_info .swiper-button-prev {background: url(../images/nav_left_s.png) no-repeat; width:25px; height:25px; left:10px; top:250px;}
     main .product .shoes_info .swiper-button-next {background: url(../images/nav_right_s.png) no-repeat; width:25px; height:25px; right:10px; top:250px;}
     main .product .shoes_info #shoes_slide .swiper-wrapper .swiper-slide > * {margin-left: 15px;}
     main .product .info .left .color a {
@@ -39,5 +39,5 @@
         font-size: 1.3rem;
     }
     main .product .info .right ul li {font-size: 1.3rem; margin:25px 25px 20px 0;}
-main .product .info .right p:last-child {line-height: 30px; font-size: 1rem;}
+    main .product .info .right p:last-child {line-height: 30px; font-size: 1rem;}
 }

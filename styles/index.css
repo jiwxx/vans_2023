@@ -61,7 +61,7 @@ main .product .trending #vans_slide .swiper-wrapper .slide2 {}
 main .product .trending #vans_slide .swiper-wrapper .slide3 {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents:first-child {}
-main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {margin-right: 25px;}
+main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents {margin-right: 10px;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a {}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents a img {width:100%;}
 main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt {margin-top:20px;}

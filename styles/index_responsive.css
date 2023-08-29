@@ -25,6 +25,12 @@
     main .collabo .collabo_c .box .contents h3 {font-size: 1.3rem; font-weight: 500;}
     main .collabo .collabo_c .box .contents >* {line-height: 23px;}
     main .collabo .collabo_c .box .contents p {font-size: 1rem;}
+    main .product .trending #vans_slide .swiper-wrapper .swiper-slide .contents .slide_txt p {
+        line-height: 20px;
+        font-size: 0.7rem;
+    }
+    main .product .trending .swiper-button-prev {background: url(../images/nav_left_s.png) no-repeat; width:25px; height:25px; left:-20px; top:50px;}
+    main .product .trending .swiper-button-next {background: url(../images/nav_right_s.png) no-repeat; width:25px; height:25px; right:-12px; top:50px;}
 }
 
 
