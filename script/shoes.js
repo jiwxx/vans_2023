@@ -1,10 +1,13 @@
-const li = document.querySelector ('li')
-const txt = document.querySelector('.txt')
-const title = document.querySelector('h4')
-console.log(li,txt,title)
+const title = document.querySelectorAll ('right > ul > li > h4')
+const txt = document.querySelectorAll('.txt_contents > .txt')
+console.log(txt,title)
 
-txt.style.display = 'none'
-li.addEventListener('click',function(){
-    contents.style.display = 'block'
-    title.style.fontweight = '500'
-})
+for(let i of txt){i.style.display='none'}
+for(let i of title){
+    console.log(i)
+    i.addEventListener('click',function(){
+        txt[0].classList.toggle('.active')
+        txt[1].classList.toggle('.active')
+        txt[2].classList.toggle('.active')
+    })
+}

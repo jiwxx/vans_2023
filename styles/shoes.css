@@ -61,5 +61,17 @@ main .product .info .right ul li :first-child {}
 main .product .info .right ul li h4 {
     font-size: 1.7rem; margin-right: 36px;
     cursor: pointer;
+    position:relative;
 }
-main .product .info .right ul li p:last-child {line-height: 40px; font-size: 1.2rem; padding-top:20px;}
+main .product .info .right .txt_contents {
+    /* background-color: aqua; */
+    padding-top: 20px;
+}
+main .product .info .right .txt_contents .txt {}
+main .product .info .right .txt_contents .txt p {}
+main .product .info .right .txt_contents .txt p:first-child {font-size: 1.2rem;}
+main .product .info .right .txt_contents .txt p img {}
+main .product .info .right .txt_contents .txt {font-size: 1.2rem; line-height: 40px;}
+main .product .info .right .txt_contents .txt,
+main .product .info .right .txt_contents .txt {position:absolute; width:450px; background-color: #fff;}
+.active {display:block !important;}

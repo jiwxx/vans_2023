@@ -17,45 +17,6 @@
     <link rel="stylesheet" href="./styles/common_reponsive.css">
 </head>
 <body>
-    <header>
-        <div class="top">
-            <p>매장 픽업 서비스 안내 (8/7~8/27)</p>
-            <div class="right">
-                <a href="#">매장찾기</a>
-                <a href="#">고객센터</a>
-                <a href="#">가입하기</a>
-                <a href="./login.html">로그인</a>
-            </div>
-        </div>
-        <div class="btm">
-            <h1><a href="./index.html"><img src="./images/logo.png" alt="vans"></a></h1>
-            <nav>
-                <ul>
-                    <li><a href="./product_list.html">NEW</a>
-                    </li>
-                    <li><a href="#">MEN</a></li>
-                    <li><a href="#">WOMEN</a></li>
-                    <li><a href="#">CUSTOMS</a></li>
-                    <li><a href="#">SKATEBOARDING</a></li>
-                    <li><a href="#">SALE</a></li>
-                    <li><a href="#">MORE</a></li>
-                </ul>
-            </nav>
-            <div class="right">
-                <form action="#" method="get" id="searchFrm">
-                    <fieldset>
-                        <legend class="skip">검색양식</legend>
-                        <button type="button" id="searchBtn"><img src="./images/icon_search.png" alt="검색하기"></button>
-                        <input type="search" name="search" id="searchTxt" placeholder="검색">
-                    </fieldset>
-                </form>
-                <div class="icon">
-                    <a href="#"><img src="./images/icon_favorite.png" alt="관심상품"></a>
-                    <a href="#"><img src="./images/icon_cart.png" alt="장바구니"></a>
-                </div>
-            </div>
-        </div>
-    </header>
     <?php include('./header.php') ?>
     <main>
         <div class="product">
@@ -111,23 +72,29 @@
                 </div>
                 <div class="right">
                     <ul>
-                        <li><h4>DESCRIPTION</h4>
-                            <p class="txt">
-                                90년대 로우탑 슈즈를 재현한 모델<br>
-                                견고한 스웨이드 소재 어퍼<br>
-                                푹신한 설포와 발목 칼라<br>
-                                푹신한 3D 몰드 사이드 스트라이프™<br>
-                                편안한 착화를 도와주는 뒤꿈치 고리<br>
-                                시그니처 고무 와플 아웃솔
-                            </p>
-                        </li>
-                        <li><h4>SIZE</h4>
-                            <p class="txt">사이즈 가이드</p>
-                        </li>
-                        <li><h4>CARE</h4>
-                            <p class="txt"></p>
-                        </li>
+                        <li><h4>DESCRIPTION</h4></li>
+                        <li><h4>SIZE</h4></li>
+                        <li><h4>CARE</h4></li>
                     </ul>
+                    <div class="txt_contents">
+                        <p class="txt">
+                            90년대 로우탑 슈즈를 재현한 모델<br>
+                            견고한 스웨이드 소재 어퍼<br>
+                            푹신한 설포와 발목 칼라<br>
+                            푹신한 3D 몰드 사이드 스트라이프™<br>
+                            편안한 착화를 도와주는 뒤꿈치 고리<br>
+                            시그니처 고무 와플 아웃솔
+                        </p>
+                        <div class="txt">
+                            <p>사이즈 가이드</p>
+                            <p><img src="./images/sizeguide.jpg" alt=""></p>
+                        </div>
+                        <p class="txt">
+                            - 신발의 뒤꿈치를 꺾어신을 경우, 뒤축보강재가 발 뒤꿈치를 상하게 할 수 있으므로 올바른 착화법을 권장합니다.<br>
+                            - 현재의 염색 기술로는 이염을 100% 완전하게는 방지할 수 없습니다. 천연가죽 소재를 사용한 신발 또는 이염의 가능성이 있는 소재를 사용한 신발은 물, 땀, 마찰에 의해 이염 현상이 발생하므로 백색 또는 엷은 색의 양말이나 옷을 착용하는 경우에는 주의하여 주십시오. <br>
+                            - 기름기가 있는 곳, 화기의 노출이 우려되는 곳에서의 착화는 신발의 변형이 오거나 불길이 옮겨 붙을 수 있습니다.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,6 +112,7 @@
             },
         })
     </script>
-    <script src="./script/header.js"></script>
+        <script src="./script/common.js"></script>
+        <script src="./script/shoes.js"></script>
 </body>
 </html>
