@@ -83,7 +83,7 @@ header .btm nav ul li .snb_all {
     position:absolute; top:20px;
     height: 345px;
     z-index:150;
-    padding:50px;
+    padding:35px;
 }
 header .btm nav ul li .snb_all .snb {
     display: flex; flex-flow: column nowrap;
